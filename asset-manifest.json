@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/himanshupanwarr/FitHub123.git/static/css/main.70eb9575.css",
+    "main.js": "/himanshupanwarr/FitHub123.git/static/js/main.f535dcb0.js",
+    "static/js/787.28cb0dcd.chunk.js": "/himanshupanwarr/FitHub123.git/static/js/787.28cb0dcd.chunk.js",
+    "static/media/donate.jpg": "/himanshupanwarr/FitHub123.git/static/media/donate.a58283b7c740e17d9ba6.jpg",
+    "static/media/gym.png": "/himanshupanwarr/FitHub123.git/static/media/gym.881fc3606d83ad5a79ad.png",
+    "static/media/footerimg.jpg": "/himanshupanwarr/FitHub123.git/static/media/footerimg.21ff78c9311912bf610f.jpg",
+    "static/media/people01.png": "/himanshupanwarr/FitHub123.git/static/media/people01.a40f2b61208976a6d644.png",
+    "static/media/fh_logo.jpg": "/himanshupanwarr/FitHub123.git/static/media/fh_logo.2c02b160a786b5b90bb1.jpg",
+    "static/media/th.jpg": "/himanshupanwarr/FitHub123.git/static/media/th.b5aba3dc269d1b166cc1.jpg",
+    "static/media/instagram.svg": "/himanshupanwarr/FitHub123.git/static/media/instagram.c6b8cb38e27fa08147a5848badee6975.svg",
+    "static/media/close.svg": "/himanshupanwarr/FitHub123.git/static/media/close.c77f10e4c08d40af5f1ccf25a43b2ac5.svg",
+    "static/media/menu.svg": "/himanshupanwarr/FitHub123.git/static/media/menu.0b8796dcff6b9d88f160a5096039aa18.svg",
+    "static/media/twitter.svg": "/himanshupanwarr/FitHub123.git/static/media/twitter.770c4fec194e1e46d63c494c3abf339c.svg",
+    "index.html": "/himanshupanwarr/FitHub123.git/index.html",
+    "static/media/linkedin.svg": "/himanshupanwarr/FitHub123.git/static/media/linkedin.118c1b5e826b3fec5a303413266a78f8.svg",
+    "static/media/facebook.svg": "/himanshupanwarr/FitHub123.git/static/media/facebook.d7c0b4e9ce034fb8d8f719d7fbc5fd90.svg",
+    "main.70eb9575.css.map": "/himanshupanwarr/FitHub123.git/static/css/main.70eb9575.css.map",
+    "main.f535dcb0.js.map": "/himanshupanwarr/FitHub123.git/static/js/main.f535dcb0.js.map",
+    "787.28cb0dcd.chunk.js.map": "/himanshupanwarr/FitHub123.git/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70eb9575.css",
+    "static/js/main.f535dcb0.js"
+  ]
+}
