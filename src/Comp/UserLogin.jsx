@@ -5,39 +5,39 @@ import { Label,Card,TextInput,Button,No } from 'flowbite-react'
 const UserLogin = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  function handleSubmit(e) {
-    e.preventDefault();
+//   function handleSubmit(e) {
+//     e.preventDefault();
 
-    console.log(email, password);
-    fetch("http://localhost:5000/login", {
-      method: "POST",
-      crossDomain: true,
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-        "Access-Control-Allow-Origin": "*",
-      },
-      body: JSON.stringify({
-        email,
-        password,
-      }),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data, "userRegister");
-        if (data.status == "ok") {
-          alert("login successful");
-          window.localStorage.setItem("token", data.data);
-          window.localStorage.setItem("loggedIn", true);
+//     console.log(email, password);
+//     fetch("http://localhost:5000/login", {
+//       method: "POST",
+//       crossDomain: true,
+//       headers: {
+//         "Content-Type": "application/json",
+//         Accept: "application/json",
+//         "Access-Control-Allow-Origin": "*",
+//       },
+//       body: JSON.stringify({
+//         email,
+//         password,
+//       }),
+//     })
+//       .then((res) => res.json())
+//       .then((data) => {
+//         console.log(data, "userRegister");
+//         if (data.status == "ok") {
+//           alert("login successful");
+//           window.localStorage.setItem("token", data.data);
+//           window.localStorage.setItem("loggedIn", true);
 
-          window.location.href = "./home";
-        }
-        else{
-          alert('something went wrong');
-          window.location.href="./singup"
-        }
-      });
-  }
+//           window.location.href = "./home";
+//         }
+//         else{
+//           alert('something went wrong');
+//           window.location.href="./singup"
+//         }
+//       });
+//   }
 
 
   return (
@@ -84,7 +84,7 @@ const UserLogin = () => {
           Remember me
         </Label>
       </div>
-      <Button type="submit" disabled={email===""||password===""?true:false} onClick={handleSubmit}>
+      <Button type="submit" disabled={email===""||password===""?true:false} >
         Submit
       </Button>
     </form>

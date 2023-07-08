@@ -41,35 +41,8 @@ const UserSingup = () => {
 
 
 
-  const handleSubmit = (e) => {
-  {
-      e.preventDefault();
 
-      // console.log(name, email, password)
-      fetch("http://localhost:5000/singup", {
-        method: "POST",
-        crossDomain: true,
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-          "Access-Control-Allow-Origin": "*",
-        },
-        body: JSON.stringify({
-          name,email,password
-        }),
-      })
-        .then((res) => res.json())
-        .then((data) => {
-          console.log(data, "userRegister");
-          if (data.status == "ok") {
-            alert("Registration Successful");
-            window.location.href='./home';
-          } else {
-            alert("Already registered");
-          }
-        });
-    }
-  };
+  
 
 
 
@@ -137,7 +110,7 @@ const UserSingup = () => {
           </p>
           </Label>
         </div>
-        <Button type="submit" disabled={email===""||name===""||password===""?true:false} onClick={handleSubmit}>
+        <Button type="submit" disabled={email===""||name===""||password===""?true:false} >
           Submit
         </Button>
       </form>
