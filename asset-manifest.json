@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/himanshupanwarr/FitHub123.git/static/css/main.70eb9575.css",
-    "main.js": "/himanshupanwarr/FitHub123.git/static/js/main.f535dcb0.js",
+    "main.js": "/himanshupanwarr/FitHub123.git/static/js/main.52b43989.js",
     "static/js/787.28cb0dcd.chunk.js": "/himanshupanwarr/FitHub123.git/static/js/787.28cb0dcd.chunk.js",
     "static/media/donate.jpg": "/himanshupanwarr/FitHub123.git/static/media/donate.a58283b7c740e17d9ba6.jpg",
     "static/media/gym.png": "/himanshupanwarr/FitHub123.git/static/media/gym.881fc3606d83ad5a79ad.png",
@@ -17,11 +17,11 @@
     "static/media/linkedin.svg": "/himanshupanwarr/FitHub123.git/static/media/linkedin.118c1b5e826b3fec5a303413266a78f8.svg",
     "static/media/facebook.svg": "/himanshupanwarr/FitHub123.git/static/media/facebook.d7c0b4e9ce034fb8d8f719d7fbc5fd90.svg",
     "main.70eb9575.css.map": "/himanshupanwarr/FitHub123.git/static/css/main.70eb9575.css.map",
-    "main.f535dcb0.js.map": "/himanshupanwarr/FitHub123.git/static/js/main.f535dcb0.js.map",
+    "main.52b43989.js.map": "/himanshupanwarr/FitHub123.git/static/js/main.52b43989.js.map",
     "787.28cb0dcd.chunk.js.map": "/himanshupanwarr/FitHub123.git/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70eb9575.css",
-    "static/js/main.f535dcb0.js"
+    "static/js/main.52b43989.js"
   ]
 }
