@@ -14,7 +14,7 @@ import Member from './Detail/Member'
 function App() {
   return (
     <>
-  <Router>  
+  <Router basename='/FitHub123'>  
     <Routes>
     <Route path='/' element={<Navbar display={'hidden'} color={"text-gray-500 after:w-[50%]"}  title={['Home','About','Reach-us']}></Navbar> }/>
     <Route path='/home' element={<Navbar display={'hidden'} color={"text-gray-500 after:w-[50%]"}  title={['Home','About','Reach-us']}></Navbar> }/>
